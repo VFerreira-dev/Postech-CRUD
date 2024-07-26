@@ -1,6 +1,6 @@
 
-Link do Vídeo gravado: ------------------------------->>>>><<<<<
-Link para documentação do Insomnia: ----------------------->>>>><<<<
+Link do Vídeo gravado: 
+Link para documentação do Insomnia: 
 
 Objetivo
 O projeto teve como objetivo desenvolver um CRUD utilizando as tecnologias Node.js e Express para criar uma API, e um banco de dados NoSQL usando MongoDB, hospedado na plataforma Atlas. O Atlas facilitou a criação, configuração e operação do banco de dados na nuvem.
