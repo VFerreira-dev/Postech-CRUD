@@ -36,7 +36,7 @@ npm install dotenv
 
 Manipulação de dados A porta utilizada no código é a 3000.
 
-No terminal do vs code, inicie o servidor atraves do comando: node run server.js - A mensagem "servidor escutando" e "conexão com o banco feita com sucesso" deve aparecer como resultado do comando.
+No terminal do vs code, inicie o servidor atraves do comando: node server.js - A mensagem "servidor escutando" e "conexão com o banco feita com sucesso" deve aparecer como resultado do comando.
 
 Com tudo instalado e com as pastas do código fonte, o CRUD deve ser feito através das seguintes requisições no Insomnia:
 
