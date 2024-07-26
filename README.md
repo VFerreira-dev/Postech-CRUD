@@ -1,60 +1,70 @@
-O projeto envolveu o desenvolvimento de um CRUD utilizando Node.js e Express para criar uma API, e MongoDB como banco de dados NoSQL, hospedado na plataforma Atlas. O Atlas facilitou a criação, configuração e operação do banco de dados na nuvem.
+
+Link do Vídeo gravado: ------------------------------->>>>><<<<<
+Link para documentação do Insomnia: ----------------------->>>>><<<<
+
+Objetivo
+O projeto teve como objetivo desenvolver um CRUD utilizando as tecnologias Node.js e Express para criar uma API, e um banco de dados NoSQL usando MongoDB, hospedado na plataforma Atlas. O Atlas facilitou a criação, configuração e operação do banco de dados na nuvem.
 
 Ferramentas Utilizadas
-Visual Studio Code: Editor de código escolhido.
-Node.js: Ambiente de execução JavaScript.
-Express: Framework para Node.js.
-MongoDB: Banco de dados NoSQL.
-Atlas: Plataforma de banco de dados na nuvem.
-dotenv: Gerenciamento de variáveis de ambiente.
+Visual Studio Code - Editor escolhido
+Node.JS
+Express
+MongoDB - Banco de dados
+Atlas - Banco na nuvem
+dotenv
 Iniciar Projeto
-
 1º Passo
-Instale o Node.js, caso ainda não esteja instalado, utilizando os comandos:
+É necessário a instalação do Node.js caso não esteja previamente instalado na máquina, atraves do comando:
 
-# Instalar fnm (Fast Node Manager)
-winget install Schniz.fnm
+installs fnm (Fast Node Manager) winget install Schniz.fnm
 
-# Baixar e instalar Node.js
-fnm use --install-if-missing 20
+download and install Node.js fnm use --install-if-missing 20
 
-# Verificar a versão correta do Node.js
-node -v # Deve imprimir v20.15.1
+verifies the right Node.js version is in the environment node -v # should print v20.15.1
 
-# Verificar a versão correta do NPM
-npm -v # Deve imprimir 10.7.0
+verifies the right NPM version is in the environment npm -v # should print 10.7.0
+
+Fonte: https://nodejs.org/en/download/package-manager
 
 2º Passo
-Crie um arquivo de configuração com o comando:
+Crie um arquivo de configuração utilizando o seguinte comando do CMD:
+
 npm init
 
 3º Passo
-Instale a biblioteca do MongoDB:
+Instale a biblioteca do mongodb para manipular o banco de dados e API através do comando:
+
 npm install mongodb
 
 4º Passo
-Instale o Express:
-npm install express
+Instale a biblioteca do express:
+
+npm express
 
 5º Passo
-Instale o Mongoose para a conexão com o banco na nuvem:
+Instale a biblioteca do mangoose para trabalharmos a conexão com o banco na nuvem:
+
 npm install mongoose --save
 
 6º Passo
-Instale o dotenv:
+Instale a biblioteca do dotenv
 
 npm install dotenv
 
-No terminal do Visual Studio Code, inicie o servidor com o comando:
-node run server.js
+Manipulação de dados
+A porta utilizada no código é a 3000.
 
-Com tudo instalado e as pastas do código-fonte organizadas, o CRUD pode ser realizado através das seguintes requisições no insomina:
+No terminal do vs code, inicie o servidor atraves do comando: node run server.js - A mensagem "servidor escutando" e "conexão com o banco feita com sucesso" deve aparecer como resultado do comando.
 
-GET: localhost:3000/livros
-GET by ID: localhost:3000/livros/(adicione o ID do livro)
-POST: localhost:3000/livros/
-PUT: localhost:3000/livros/(adicione o ID do livro)
-DELETE: localhost:3000/livros/(adicione o ID do livro)
+Com tudo instalado e com as pastas do código fonte, o CRUD deve ser feito através das seguintes requisições no Insomnia:
 
+GET - localhost:3000/livros
 
+GET by ID - localhost:3000/livros/(adicione o ID do livro)
+
+POST - localhost:3000/livros/
+
+PUT - localhost:3000/livros/(adicione o ID do livro)
+
+DELETE - localhost:3000/livros/(adicione o ID do livro)
 
