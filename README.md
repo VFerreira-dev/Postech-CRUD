@@ -1,20 +1,8 @@
+Link do Vídeo gravado:
 
-Link do Vídeo gravado: 
+Objetivo O projeto teve como objetivo desenvolver um CRUD utilizando as tecnologias Node.js e Express para criar uma API, e um banco de dados NoSQL usando MongoDB, hospedado na plataforma Atlas. O Atlas facilitou a criação, configuração e operação do banco de dados na nuvem.
 
-
-Objetivo
-O projeto teve como objetivo desenvolver um CRUD utilizando as tecnologias Node.js e Express para criar uma API, e um banco de dados NoSQL usando MongoDB, hospedado na plataforma Atlas. O Atlas facilitou a criação, configuração e operação do banco de dados na nuvem.
-
-Ferramentas Utilizadas
-Visual Studio Code - Editor escolhido
-Node.JS
-Express
-MongoDB - Banco de dados
-Atlas - Banco na nuvem
-dotenv
-Iniciar Projeto
-1º Passo
-É necessário a instalação do Node.js caso não esteja previamente instalado na máquina, atraves do comando:
+Ferramentas Utilizadas Visual Studio Code - Editor escolhido Node.JS Express MongoDB - Banco de dados Atlas - Banco na nuvem dotenv Iniciar Projeto 1º Passo É necessário a instalação do Node.js caso não esteja previamente instalado na máquina, atraves do comando:
 
 installs fnm (Fast Node Manager) winget install Schniz.fnm
 
@@ -26,33 +14,27 @@ verifies the right NPM version is in the environment npm -v # should print 10.7.
 
 Fonte: https://nodejs.org/en/download/package-manager
 
-2º Passo
-Crie um arquivo de configuração utilizando o seguinte comando do CMD:
+2º Passo Crie um arquivo de configuração utilizando o seguinte comando do CMD:
 
 npm init
 
-3º Passo
-Instale a biblioteca do mongodb para manipular o banco de dados e API através do comando:
+3º Passo Instale a biblioteca do mongodb para manipular o banco de dados e API através do comando:
 
 npm install mongodb
 
-4º Passo
-Instale a biblioteca do express:
+4º Passo Instale a biblioteca do express:
 
 npm express
 
-5º Passo
-Instale a biblioteca do mangoose para trabalharmos a conexão com o banco na nuvem:
+5º Passo Instale a biblioteca do mangoose para trabalharmos a conexão com o banco na nuvem:
 
 npm install mongoose --save
 
-6º Passo
-Instale a biblioteca do dotenv
+6º Passo Instale a biblioteca do dotenv
 
 npm install dotenv
 
-Manipulação de dados
-A porta utilizada no código é a 3000.
+Manipulação de dados A porta utilizada no código é a 3000.
 
 No terminal do vs code, inicie o servidor atraves do comando: node run server.js - A mensagem "servidor escutando" e "conexão com o banco feita com sucesso" deve aparecer como resultado do comando.
 
@@ -67,4 +49,3 @@ POST - localhost:3000/livros/
 PUT - localhost:3000/livros/(adicione o ID do livro)
 
 DELETE - localhost:3000/livros/(adicione o ID do livro)
-
