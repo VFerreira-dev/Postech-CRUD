@@ -1,9 +1,9 @@
 
 
-Objetivo
+Objetivo:
 O projeto consistiu em desenvolver um CRUD utilizando as tecnologias Node.js + Express para criação de uma API e um banco de dados NoSQL utilizando o banco de dados MongoDB através da platafomra Atlas. o Atlas permitiu criar, configurar e operar o banco de dados na nuvem.
 
-Ferramentas Utilizadas
+Ferramentas Utilizadas:
 Visual Studio Code - Editor escolhido
 Node.JS
 Express
